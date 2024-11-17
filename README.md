@@ -57,26 +57,26 @@ JWT_SECRET=sua_chave_secreta
 
 ## 📂 Estrutura do Projeto
 ```
-.
-├── config/
-│   └── db.js            # Configuração da conexão com o MongoDB
-├── controllers/
-│   ├── authController.js       # Lógica de autenticação
-│   ├── categoryController.js   # Lógica para categorias
-│   └── productController.js    # Lógica para produtos
-├── middleware/
-│   └── authMiddleware.js       # Middleware para autenticação JWT
-├── models/
-│   ├── Category.js             # Modelo de Categoria
-│   ├── Product.js              # Modelo de Produto
-│   └── User.js                 # Modelo de Usuário
-├── routes/
-│   ├── authRoutes.js           # Rotas de autenticação
-│   ├── categoryRoutes.js       # Rotas de categorias
-│   └── productRoutes.js        # Rotas de produtos
-├── server.js                   # Arquivo principal do servidor
-├── .env                        # Variáveis de ambiente
-└── package.json
+
+config/
+    db.js            # Configuração da conexão com o MongoDB
+controllers/
+  authController.js       # Lógica de autenticação
+  categoryController.js   # Lógica para categorias
+  productController.js    # Lógica para produtos
+middleware/
+  authMiddleware.js       # Middleware para autenticação JWT
+models/
+  Category.js             # Modelo de Categoria
+  Product.js              # Modelo de Produto
+  User.js                 # Modelo de Usuário
+routes/
+  authRoutes.js           # Rotas de autenticação
+  categoryRoutes.js       # Rotas de categorias
+  productRoutes.js        # Rotas de produtos
+server.js                   # Arquivo principal do servidor
+.env                        # Variáveis de ambiente
+package.json
 ```
 ## 🛠️ Uso
 ### 1️⃣ Inicie o Servidor
